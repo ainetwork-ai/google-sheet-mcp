@@ -25,8 +25,6 @@ export interface ServerConfig {
   google: GoogleConfig;
   rateLimit?: RateLimitConfig;
   cache?: CacheConfig;
-  port?: number;
-  host?: string;
 }
 
 export interface SpreadsheetFile {

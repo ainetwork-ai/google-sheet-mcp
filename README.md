@@ -46,10 +46,6 @@ GOOGLE_REDIRECT_URI=http://localhost:3000/oauth/callback
 
 # 서비스 계정 설정 (선택사항)
 GOOGLE_SERVICE_ACCOUNT_KEY_PATH=./path/to/service-account-key.json
-
-# MCP 서버 설정
-MCP_SERVER_PORT=3000
-MCP_SERVER_HOST=localhost
 ```
 
 3. **Start the MCP server**
@@ -74,8 +70,6 @@ npm start
         "GOOGLE_CLIENT_ID":"YOUR_CLIENT_ID",
         "GOOGLE_CLIENT_SECRET":"YOUR_CLIENT_SECRET",
         "GOOGLE_REDIRECT_URI":"http://localhost:3000/oauth/callback",
-        "MCP_SERVER_PORT":"3000",
-        "MCP_SERVER_HOST":"localhost",
         "NODE_ENV":"development",
         "LOG_LEVEL":"info"
       }
